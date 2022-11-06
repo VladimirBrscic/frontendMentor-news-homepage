@@ -37,12 +37,14 @@ button{
     display: none;
 }
 
-/* header, menu and drop down menu */
+
+/* header and drop down menu */
 
 header{
     display: flex;
     justify-content: space-between;
 }
+
 .nav-menu{
     position: absolute;
     top: 2rem;
@@ -77,10 +79,13 @@ header{
 
 
 @media screen and (min-width: 56em) {
+
+    /* header and drop down menu */
     
     .mobile-menu-switch{
         display: none;
     }
+
     header{
         display: flex;
         justify-content: space-between;
